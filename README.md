@@ -1,61 +1,52 @@
-# PSO for Public Transport Scheduling Optimization
+# 🚍 PSO-Based Public Transport Scheduling Optimization
+
+An intelligent public transport scheduling system that combines **Machine Learning** and **Particle Swarm Optimization (PSO)** to analyze passenger demand and explore optimized bus allocation strategies using simulated transportation data.
+
+---
 
 ## 📌 Project Overview
 
-This project applies Particle Swarm Optimization (PSO) to optimize public transport scheduling using a simulated dataset. The goal is to improve transportation efficiency by reducing passenger waiting time and optimizing bus capacity utilization.
+This project demonstrates a data-driven approach to public transport scheduling.
+
+A simulated transportation dataset is generated using Python and analyzed using machine learning techniques. A **Random Forest Classifier** is trained to classify passenger demand into different demand levels. The predicted demand is then used as an input to a **Particle Swarm Optimization (PSO)** algorithm for bus allocation.
+
+The project also includes an interactive **Gradio dashboard** for exploring transportation data, model metrics, visualizations, and optimization-related outputs.
+
+---
 
 ## 🎯 Objectives
 
-- Predict passenger demand for public transport routes.
-- Optimize bus scheduling using Particle Swarm Optimization.
-- Reduce passenger waiting time.
-- Improve bus capacity utilization.
-- Analyze transportation performance using simulation data.
+- Generate and analyze simulated public transport data.
+- Classify passenger demand into different demand levels.
+- Apply machine learning for demand prediction.
+- Use Particle Swarm Optimization for bus allocation.
+- Analyze transportation scheduling costs.
+- Visualize passenger demand and model performance.
+- Provide an interactive dashboard for system exploration.
+
+---
 
 ## 🧠 Methodology
 
-The project follows these steps:
+The project follows the following workflow:
 
-1. Generate a simulated public transport dataset.
-2. Preprocess and analyze the data.
-3. Predict passenger demand using machine learning.
-4. Apply Particle Swarm Optimization (PSO).
-5. Optimize bus schedules based on passenger demand.
-6. Evaluate the optimized scheduling results.
-
-## 🛠️ Technologies Used
-
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Particle Swarm Optimization
-- Jupyter Notebook
-
-## 📊 Dataset
-
-A simulated dataset is generated using Python and contains information related to:
-
-- Route ID
-- Bus ID
-- Passenger demand
-- Time
-- Scheduling-related features
-
-## 📈 Results
-
-The optimization process aims to:
-
-- Reduce passenger waiting time
-- Improve bus utilization
-- Match bus schedules with passenger demand
-- Improve overall transportation efficiency
-
-## 🚀 How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/adidev282006-sketch/PSO-for-public-transport-Scheduling-Optimization-in-Simulation-Dataset.git
+```text
+Simulated Transport Data
+          ↓
+Data Preprocessing
+          ↓
+Exploratory Data Analysis
+          ↓
+Demand Classification
+          ↓
+Random Forest Model
+          ↓
+GridSearchCV Hyperparameter Tuning
+          ↓
+Predicted Passenger Demand
+          ↓
+Particle Swarm Optimization
+          ↓
+Bus Allocation Analysis
+          ↓
+Interactive Dashboard
